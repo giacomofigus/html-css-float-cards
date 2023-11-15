@@ -27,7 +27,7 @@ header p{
 .card-container{
     margin: 5em auto;
     width: 80%;
-    border: 1px solid green;
+    
 }
 
 .card-left{
@@ -61,3 +61,27 @@ header p{
     display: table;
     clear: both;
 }
+
+img{
+    width: 30%;
+    height: 100%;
+    float:left;
+    margin-right: 20px;
+}
+
+h2{
+    color: white;
+    margin-top: 20px;
+}
+
+ .role{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: #2EA9CB;
+}
+
+
