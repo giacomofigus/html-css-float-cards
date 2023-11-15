@@ -21,3 +21,41 @@ header p{
     margin-top: 2em;
     font-size: 30px;
 }
+
+
+
+.card-container{
+    margin: 5em auto;
+    width: 80%;
+}
+
+.card-left{
+    width: 400px;
+    height: 150px;
+    background-color: red;
+    border:1px black solid;
+    float: left;
+    margin-right: 10em;
+}
+
+.card-center{
+    width: 400px;
+    height: 150px;
+    background-color: red;
+    border:1px black solid;
+    float: left;
+}
+
+.card-right{
+    width: 400px;
+    height: 150px;
+    background-color: red;
+    border:1px black solid;
+    float: right;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
