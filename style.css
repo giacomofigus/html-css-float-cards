@@ -27,31 +27,33 @@ header p{
 .card-container{
     margin: 5em auto;
     width: 80%;
+    border: 1px solid green;
 }
 
 .card-left{
-    width: 400px;
+    width: calc(100% / 3 );
     height: 150px;
-    background-color: red;
-    border:1px black solid;
     float: left;
-    margin-right: 10em;
+    margin-right: 50px;
+    
+    background-color: #0F0E17;
 }
 
 .card-center{
-    width: 400px;
+    width: calc(100% / 3 - 50px);
     height: 150px;
-    background-color: red;
-    border:1px black solid;
+    margin-right: 50px;
     float: left;
+
+    background-color: #0F0E17;
 }
 
 .card-right{
-    width: 400px;
+    width: calc(100% / 3 - 50px);
     height: 150px;
-    background-color: red;
-    border:1px black solid;
     float: right;
+    
+    background-color: #0F0E17;
 }
 
 .clearfix::after{
