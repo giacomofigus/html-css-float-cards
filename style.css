@@ -37,6 +37,7 @@ header p{
     margin-right: 50px;
     
     background-color: #0F0E17;
+    box-shadow: 5px 5px 20px;
 }
 
 .card-center{
@@ -46,6 +47,7 @@ header p{
     float: left;
 
     background-color: #0F0E17;
+    box-shadow: 5px 5px 20px;
 }
 
 .card-right{
@@ -54,7 +56,10 @@ header p{
     float: right;
     
     background-color: #0F0E17;
+    box-shadow: 5px 5px 20px;
 }
+
+
 
 .clearfix::after{
     content: '';
